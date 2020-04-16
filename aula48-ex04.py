@@ -8,13 +8,12 @@ Se o parâmetro da função for divisível por 3 e por 5, retorne fizzbuzz, caso
 def fizzbuzz(n):
     if n % 3 == 0 and n % 5 == 0:
         return 'fizzbuzz'
-    elif n % 3 == 0:
+    if n % 3 == 0:
         return 'fizz'
-    elif n % 5 == 0:
+    if n % 5 == 0:
         return 'buzz'
-    else:
-        return n
+    return n
 
 # PROGRAMA PRINCIPAL
 
-print(fizzbuzz(10))
+print(fizzbuzz(7))

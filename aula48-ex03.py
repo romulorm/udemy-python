@@ -10,4 +10,4 @@ def reajuste(valor, percent):
 v = float(input('Digite o valor a sofrer reajuste (R$): '))
 p = float(input('Digite o percentual de reajuste (%): '))
 valorreajustado = reajuste(v, p)
-print(f'\33[32mValor de R${v:.2f} reajustado em {p}%: R${valorreajustado:.2f}\33[m')
+print(f'\33[32mValor de R${v:.2f} reajustado em {p}% = R${valorreajustado:.2f}\33[m')
