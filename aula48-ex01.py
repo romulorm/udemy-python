@@ -3,9 +3,11 @@ Crie uma função que exiba uma saudação com os parâmetros "saudação" e "no
 '''
 
 def saudacao(msg='Olá', nome='usuário'):
-    return msg, nome
+    print(f'{msg}, {nome}.')
 
 
 # PROGRAMA PRINCIPAL
 
-print(saudacao('Boa noite', 'Leandro'))
+saudacao('Boa noite', 'Leandro')
+saudacao('Boa tarde', 'Maria')
+saudacao('Hey', 'Joe')
