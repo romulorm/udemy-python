@@ -9,7 +9,7 @@ def somatres(n1, n2, n3):
 # PROGRAMA PRINCIPAL
 numeros = list()
 
-for n in range(0, 3):
+for n in range(3):
     numero = int(input('Digite um número: '))
     numeros.append(numero)
 
