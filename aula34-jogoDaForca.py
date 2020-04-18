@@ -8,6 +8,10 @@ digitadas = []
 chances = 5
 tentativas = 0
 
+print('-=-' * 6)
+print('\33[36mJOGO DA FORCA 1.0\33[m')
+print('-=-' * 6)
+
 while True:
     letra = str(input('Escolha uma letra: ').strip().lower()[0])
     digitadas.append(letra)

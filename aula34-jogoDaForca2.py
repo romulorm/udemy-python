@@ -12,6 +12,10 @@ corpoHumano = ('braco', 'perna', 'cabeca', 'olho', 'orelha', 'dente', 'lingua', 
 comida = ('macarrao', 'arroz', 'pizza', 'sanduiche', 'lasanha', 'almondega', 'salada', 'frango', 'tomate',
           'farinha', 'batata', 'abobora', 'couve', 'cenoura')
 
+print('-=-' * 6)
+print('\33[36mJOGO DA FORCA 2.0\33[m')
+print('-=-' * 6)
+
 palavra_secreta = ''
 digitadas = []
 chances = 5
